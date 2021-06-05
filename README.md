@@ -38,7 +38,7 @@ Upon the creation of the serives, following the are details of module & port res
 ## Run Haproxy:
 
 ```
-haproxy -f haproxy-poc.cfg
+haproxy -f haproxy/haproxy.cfg
 ```
 
 ## Haproxy Status
