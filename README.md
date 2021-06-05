@@ -1,8 +1,8 @@
-# IS-HaProxy
-Maintained by the Infrastructure Services Team
+# HaProxy
+This repo has haproxy configurations, where any services can be set behind the haproxy which act as a router/loadbalancer. Here haproxy will act any a interface to interact with any services.
 
 - HTTPd services are spinned up inside the contianer to server the web traffic.
-- This services are named as `lenswalk-webUI`, `lenswalk-user`, `lenswalk-portfolio`, `lenswalk-feeds`, `lenswalk-review`, `lenswalk-filter` respectively to mock the actual lenswalk services.
+- This services are named as `lenswalk-webUI`, `lenswalk-user`, `lenswalk-portfolio`, `lenswalk-feeds`, `lenswalk-review`, `lenswalk-filter` respectively to mock the actual services.
 - Each services are mapped to unqiue port to run the web services in localhost.
 
 # Pre-Requisites
@@ -26,12 +26,12 @@ Upon the creation of the serives, following the are details of module & port res
 
 | Module    | Location               |
 | ----------| -------------------    |
-| WebUI     | http://localhost:8082  |
-| User      | http://localhost:8083  |
-| Portfolio | http://localhost:8084  |
-| Feeds     | http://localhost:8085  |
-| Review    | http://localhost:8086  |
-| Filter    | http://localhost:8087  |
+| WebUI     | http://localhost:8081  |
+| User      | http://localhost:8082  |
+| Portfolio | http://localhost:8083  |
+| Feeds     | http://localhost:8084  |
+| Review    | http://localhost:8085  |
+| Filter    | http://localhost:8086  |
 
 
 
